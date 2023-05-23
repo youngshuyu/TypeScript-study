@@ -36,3 +36,4 @@ function getDirection(value: Direction) {
       return error;
   }
 }
+// 由于任何类型都不能赋给never类型的变量，所以当存在进入default分支的可能性时，TS的类型检查会帮助我们及时发现这个问题
